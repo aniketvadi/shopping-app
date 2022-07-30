@@ -40,9 +40,7 @@ class _HomePageState extends State<HomePage> {
                 child: Text('something went wrong'),
               );
             } else {
-              // return const LoginPage();
-              getProduct();
-              return const ProductScreen();
+              return const LoginPage();
             }
           }),
     );
